@@ -9,7 +9,6 @@ const assignment = {};
  * Calculate and return the sum of the numbers in an array.
  * If you did Challenge - 1, remove the comment in the line just after this function
  * 
- * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
  const sum = arrayOfNumbers.reduce((a, b) =>{
@@ -17,7 +16,8 @@ function sumOfNumbers(arrayOfNumbers) {
   }, 0);
    return sum;
 }
-sumOfNumbers([1,4,3,5])
+
+
 /**
  * Challenge - 2
  * 
@@ -33,7 +33,6 @@ function countEvenNumbers(arrayOfNumbers) {
     return evenNumbers.length;
  
 }
-countEvenNumbers([2, 3, 4, 8, 12])
 
 
 /**
