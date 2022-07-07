@@ -3,21 +3,21 @@
 const assignment = {};
 // ========================
 
-
 /**
  * Challenge - 1
  * 
  * Calculate and return the sum of the numbers in an array.
  * If you did Challenge - 1, remove the comment in the line just after this function
  * 
- * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+ const sum = arrayOfNumbers.reduce((a, b) =>{
+    return a + b;
+  }, 0);
+   return sum;
 }
-// assignment.sumOfNumbers = sumOfNumbers;
-
+sumOfNumbers([1,4,3,5])
 /**
  * Challenge - 2
  * 
@@ -28,9 +28,13 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+  let evenNumbers = arrayOfNumbers
+    .filter(elem => elem % 2 === 0);
+    return evenNumbers.length;
+ 
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+countEvenNumbers([2, 3, 4, 8, 12])
+
 
 /**
  * Challenge - 3
