@@ -15,7 +15,7 @@ const assignment = {};
  */
 function sumOfNumbers(arrayOfNumbers) {
   const sum = arrayOfNumbers.reduce((acc,val) =>{
-    return a + b;
+    return acc + val;
   }, 0)
     return sum;
 }
@@ -34,7 +34,6 @@ function countEvenNumbers(arrayOfNumbers) {
   const evenNumber = arrayOfNumbers.filter(elem =>{
     return elem % 2 === 0;
   });
-  console.log(evenNumber)
     return evenNumber.length;
 }
  assignment.countEvenNumbers = countEvenNumbers;
