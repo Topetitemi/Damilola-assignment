@@ -32,7 +32,7 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
   const evenNumber = arrayOfNumbers.filter(elem =>{
-    return elem % 2 = 0;
+    return elem % 2 === 0;
   });
   console.log(evenNumber)
     return evenNumber.length;
