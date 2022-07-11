@@ -3,15 +3,15 @@
     "src/assignment.js": [
       {
         "id": "d3cf6d1a-6398-471a-8ea5-d066b47bc3a1",
-        "line": 3,
-        "version": 576,
-        "index": 54
+        "line": 1,
+        "version": 590,
+        "index": 0
       },
       {
         "id": "8ae82735-093c-4570-ad04-6f42f1ab308e",
-        "line": 6,
-        "version": 576,
-        "index": 106
+        "line": 1,
+        "version": 590,
+        "index": 0
       }
     ]
   }
